@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+
+  <body>
+    <div class="box">
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="replacechar">Replace Char:</label>
+        <input type="text" id="replacechar" name="replacechar" required />
+        <label for="newchar">New Char:</label>
+        <input type="text" id="newchar" name="newchar" required />
+        <div>
+          <button type="button" onclick="replaceChar()">Check</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
